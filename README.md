@@ -5,4 +5,5 @@ You can use the following commands to install these libraries
 pip install numpy
 pip install matplotlib
 pip install basemap
+pip install plotly
 I will give you a photo of the final diagram
