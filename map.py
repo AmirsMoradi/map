@@ -10,7 +10,7 @@ latitudes = np.array([35.6892, 29.5918, 36.6736, 32.6546, 31.8974, 35.5770, 36.2
 longitudes = np.array([51.3890, 52.5837, 48.4787, 51.6680, 54.3569, 53.3930, 59.6062, 57.0834, 48.5150, 46.2993])
 populations = np.array([8737510, 1869001, 430871, 1961260, 530965, 185129, 3001184, 738724, 554406, 1558693])
 
-# ا Basema
+# Basemap
 plt.figure(figsize=(10, 8))
 m = Basemap(projection='merc', llcrnrlat=25, urcrnrlat=40, llcrnrlon=44, urcrnrlon=63, resolution='i')
 m.drawcoastlines()
